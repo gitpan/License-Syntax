@@ -14,11 +14,11 @@ License::Syntax - Coding and Decoding of License strings using SPDX and SUSE syn
 
 =head1 VERSION
 
-Version 0.11
+Version 0.13
 
 =cut
 
-our $VERSION = '0.11';
+our $VERSION = '0.13';
 
 
 =head1 SYNOPSIS
@@ -425,8 +425,9 @@ sub tokenize
 
   $text = "REJECT(?undefined($text)?)" unless $text =~ m{\w\w};
 
-  ## accept a comma instead of a semicolon, unless there are semicolons.
-  $text =~ s{,}{;} unless $text =~ m{;};
+  #### accept a comma instead of a semicolon, unless there are semicolons.
+  ## Not done, we have to digest this: "The PHP License, version 3.01"
+  ## $text =~ s{,}{;} unless $text =~ m{;};
 
   ## tokenize the expression by cutting at all operators and parenthesis.
   ## we cut before and after such operators and parenthesis, so that we

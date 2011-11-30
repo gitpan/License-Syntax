@@ -7,3 +7,4 @@ BEGIN {
 }
 
 diag( "Testing License::Syntax $License::Syntax::VERSION, Perl $], $^X" );
+

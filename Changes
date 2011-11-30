@@ -1,5 +1,11 @@
 Revision history for License-Syntax
 
+0.13	2011-11-30, jw
+	fixed LGPL-2+
+
+0.12    2011-05-29, jw
+	Comma (',') no longer seperates licenses, it occurs within old pdb names.
+
 0.11    2011-04-28, jw
 	Implicit mapping from WWWWvD.0 to WWWW-D
 
@@ -13,7 +19,6 @@ Revision history for License-Syntax
 	renamed to License::Syntax, it is not RPM specific at all.
 	added synopsis.csv from legal/trunk/rpm-license-string/
 	revamped loadmap_csv
-
 
 0.07    2009-09-18, jw
 	fixed test suite. again. grrr.

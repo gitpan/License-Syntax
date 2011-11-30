@@ -84,12 +84,12 @@
 "GNU General Public License v3.0 or later";"GPL-3+";"http://www.gnu.org/licenses/gpl-3.0-standalone.html";"GPLv3+";"GPL 3.0 or later";"GPL-3+";4;
 "GNU General Public License v3.0 w/Autoconf exception";"GPL-3-with-autoconf-exception";"http://www.gnu.org/licenses/autoconf-exception-3.0.html";"GPLv3(autoconf exception)";"?";"GPL-3(autoconf exception)";3;
 "GNU General Public License v3.0 w/GCC Runtime Library exception";"GPL-3-with-GCC-exception";"http://www.gnu.org/licenses/gcc-exception-3.1.html";"GPLv3 with exceptions";"?";"GPL-3(gcc  exception)";3;
-"GNU Lesser General Public License v2.1only";"LGPL-2.1";"http://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html";"LGPLv2.1";"LGPL  2.1";"LGPL-2.1";3;
-"GNU Lesser General Public License v2.1or later";"LGPL-2.1+";"http://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html";"LGPLv2.1+";"LGPL  2.1 or later";"LGPL-2.1+";3;
+"GNU Lesser General Public License v2.1 only";"LGPL-2.1";"http://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html";"LGPLv2.1";"LGPL  2.1";"LGPL-2.1";3;
+"GNU Lesser General Public License v2.1 or later";"LGPL-2.1+";"http://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html";"LGPLv2.1+";"LGPL 2.1 or later";"LGPL-2.1+";3;
 "GNU Lesser General Public License v3.0 only";"LGPL-3";"http://www.gnu.org/licenses/lgpl-3.0-standalone.html";"LGPLv3";"LGPL 3.0";"LGPL-3";3;
-"GNU Lesser General Public License v3.0 or later";"LGPL-3+";"http://www.gnu.org/licenses/lgpl-3.0-standalone.html";"LGPLv3+ ";"LGPL 3.0 or later";"LGPL-3+";3;
-"GNU Library General Public License v2 only";"LGPL-2";"http://www.gnu.org/licenses/old-licenses/lgpl-2.0-standalone.html";"LGPLv2 ";"LGPL 2.0";"LGPL-2";3;
-"GNU Library General Public License v2 or later";"LGPL-2+";"http://www.gnu.org/licenses/old-licenses/lgpl-2.0-standalone.html";"LGPLv2+";"LGPL 2.0 or later";"LGPL-2";3;
+"GNU Lesser General Public License v3.0 or later";"LGPL-3+";"http://www.gnu.org/licenses/lgpl-3.0-standalone.html";"LGPLv3+ ";"LGPL 3.0 or later";"LGPL-3.0+";3;
+"GNU Library General Public License v2 only";"LGPL-2";"http://www.gnu.org/licenses/old-licenses/lgpl-2.0-standalone.html";"LGPLv2 ";"LGPL 2.0";"LGPL-2.0";3;
+"GNU Library General Public License v2 or later";"LGPL-2+";"http://www.gnu.org/licenses/old-licenses/lgpl-2.0-standalone.html";"LGPLv2+";"LGPL 2.0 or later";"LGPL-2.0+";3;
 "?";"?";"?";"?";"?";"LPGL(unknown version)";3;
 "gSOAP Public License v1.b";"gSOAP-1.3b";"http://www.cs.fsu.edu/~engelen/license.html";"gSOAP";"gsoap";"GSOAP-1.3b";3;
 "Historic Permission Notice and Disclaimer";"HPND";"http://www.opensource.org/licenses/historical.php";"?";"?";"HPND";1;
@@ -167,3 +167,7 @@
 "?";"?";;"?";"?";"NON-OSI-COMPLIANT(binary only)";5;
 # "?";"GPL+ or Artistic";;"?";"perl license";"GPL(any version) or Artistic 1.0";2;
 "?";"?";;"?";"any permissive";"PERMISSIVE-OSI-COMPLIANT";1;
+;;;;"ACPICA";"ACPI";3;
+# "A missing version number is likely to mean GPL-2+, we take the risk to err here"
+;;;;"GPL";"GPL-2+";3;
+;;;;"The PHP License, version 3.01";PHP-3;2;
